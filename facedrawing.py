@@ -44,3 +44,8 @@ rightbrow.move(150, -30)
 rightbrow.draw(win)
 leftbrow.draw(win)
 
+mouth = Rectangle (Point ( 280, 310) , Point (400,320))
+mouth.setOutline('black')
+mouth.setFill('black')
+mouth.draw(win)
+
